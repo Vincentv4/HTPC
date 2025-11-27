@@ -14,6 +14,8 @@ remember to download kodi-addon-peripheral-joystick for arch or the package that
 # KODI
 I dont like the idea of needing to switch between apps for different types of media, so KODI seemed like the best choice as its already great for movies, shows, TV and music, so just games needed.
 For the people that are fine with multiple apps I recommend looking into KDE Bigscreen and apps like Steam Big picture/ OpengamepadUI and obviously still KODI for watching stuff.
+Since playnite has just announced Linux support being planned, this would also be an option.
+
 
 But for me either the Advanced Kodi Launcher (AKL), or Lutris for Kodi addons seem like a good option. Both do have their respective advantages and problems.
 If all you do is play PC games I would just go with Lutris, it allows you to easily manage your games in the Desktop from different launchers, configure wine, gamescope and a lot of different Settings, however currently the addon doesnt creat a lot of folders, no categories (which includes lutris favorites) or recently played. (This is due to the Author relying on lutris -j and -i flags instead of querying the database file directly, categories are just not exposed, and recently played was not added to the Integration yet, when get some more free time I might work on a new Integration that uses the Database direclty, this may also allow adding kodi favorite games to lutris favorite folder automatically.)
